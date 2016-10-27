@@ -56,7 +56,7 @@ node hello.js
 
 Java works a bit different. Java code is **compiled** to **bytecode**. Bytecode is a set of instructions that a machine can understand. We can then use the Java Virtual Machine (JVM) to **execute** the compiled bytecode. This is really nice, because we can run our Java code anywhere we can have a JVM.
 
-**You Do:** So in order to run our `hello.java` we first have to compile it. We can do that using the `javac` (**java c**ompiler) command:
+**You Do:** So in order to run our `hello.java` we first have to compile it. We can do that using the `javac` (**java compiler**) command:
 
 ```bash
 javac Hello.java
@@ -149,7 +149,7 @@ var resultOne = add(1, 2) // => 3
 var resultTwo = add('hello', 'world') // => helloworld
 ```
 
-Java is **statically typed**, meaning you need to explicitly specify the _type_s of the following:
+Java is **statically typed**, meaning you need to explicitly specify the \_type_s of the following:
 
 - variables
 - parameters of methods
@@ -612,7 +612,6 @@ In Java, `this` is very simple - it always just refers to that _instance_.
 ```java
 //filename: DemoObject.java
 public class DemoObject {
-
   public int foo;
 
   public DemoObject(int _foo){
@@ -768,7 +767,7 @@ System.out.println(fullNames[0][0]);
 **You Do:** Create a class called ArrayDemo with a main method.
  - Create an array of ints with a length of 10.
  - Create an array of Strings using literal syntax.
-  - It contains Strings "Han Solo", "Luke Skywalker", "R2D2"
+ - It contains Strings "Han Solo", "Luke Skywalker", "R2D2"
 
 **We Now Know:**
  - Java arrays do not have helper methods.

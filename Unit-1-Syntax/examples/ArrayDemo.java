@@ -12,7 +12,6 @@ public class ArrayDemo {
     };
     System.out.println(strings[0]);
     System.out.println(strings.length);
-
   }
 
 }
