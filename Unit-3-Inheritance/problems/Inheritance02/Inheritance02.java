@@ -8,8 +8,8 @@ public class Inheritance02 {
     //System.out.println(employee.status);
     System.out.println(employee.getStatus());
 
-    Manager manager = new Manager();
+    Manager manager = new Manager(true);
     //System.out.println(employee.status);
-    System.out.println(employee.getStatus());
+    System.out.println(manager.getStatus());
   }
 }

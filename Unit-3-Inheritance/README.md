@@ -80,6 +80,7 @@ javac -d bin Inheritance01.java && java -cp bin galvanize.Inheritance01
 Then:
 
 - overload the `printName` method with a new method with signature that has another parameter `middle` and prints the first / middle / last
+
 - overload the `printName` method with a new method with signature that has another parameter `lastFirst` that prints the name in the format "last, first"
 
 ## Inheriting
