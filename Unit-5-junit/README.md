@@ -62,7 +62,7 @@ public void createZombie_ShouldHaveName() {
 }
 ```
 
-You'll see that the tests start with an `@Test` suffix. Each test is a method whose name gives a good hint as to what should happen if the test method is executed successfully. For example, `createZombie_ShouldHaveName()` means that once you instantiate a Zombie, it is expected that it will have a name. The validity of the test is measured with the `assertEquals()` method, which takes two parameters, testing to see if the parameters are the same, using the following syntax: `assertEquals(expected, actual)`.
+You'll see that the tests  ans that once you instantiate a Zombie, it is expected that it will have a name. The validity of the test is measured with the `assertEquals()` method, which takes two parameters, testing to see if the parameters are the same, using the following syntax: `assertEquals(expected, actual)`.
 
 ## Challenge #2 - Porting JavaScript to Java
 
